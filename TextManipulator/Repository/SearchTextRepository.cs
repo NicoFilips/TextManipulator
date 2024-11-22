@@ -15,7 +15,6 @@ public class SearchTextRepository
                     $"Das Wort '{sampleWord.Key}' wurde im Text gefunden und durch '{sampleWord.Value}' ersetzt.");
             }
         }
-
         return text;
     }
 }
