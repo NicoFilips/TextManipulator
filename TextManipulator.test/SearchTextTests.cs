@@ -1,4 +1,7 @@
-﻿using NUnit.Framework;
+﻿using FluentAssertions;
+using NUnit.Framework;
+using TextManipulator;
+using TextManipulator.Repository;
 
 namespace TextManipulator.test;
 
@@ -21,7 +24,8 @@ public sealed class SearchTextTests
             }
 
             // Act
-            var result = FileParser.ReplaceMatchesInText(inputText, dictionary);
+            
+            var result = SearchTextRepository.ReplaceMatchesInText(inputText, dictionary);
 
             // Assert
             result.Should().Be(expectedText);

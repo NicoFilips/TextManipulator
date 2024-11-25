@@ -18,4 +18,8 @@
         <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TextManipulator\TextManipulator.csproj" />
+    </ItemGroup>
+
 </Project>

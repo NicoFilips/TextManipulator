@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace TextManipulator.Repository;
 
-public class SearchTextRepository
+public static class SearchTextRepository
 {
     public static string ReplaceMatchesInText(string text, Dictionary<string, string> dictionary)
     {
