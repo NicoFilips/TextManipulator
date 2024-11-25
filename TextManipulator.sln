@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextManipulator", "TextManipulator\TextManipulator.csproj", "{2D2938E1-395D-4E09-B970-0201109C97AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextManipulator.test", "TextManipulator.test\TextManipulator.test.csproj", "{C2B3AB1E-6AB1-4EC2-B22B-61D66B1CEB0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextManipulator.Tests", "TextManipulator.Tests\TextManipulator.Tests.csproj", "{FECA019E-AD20-4D43-BD30-F1544A79FD6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{2D2938E1-395D-4E09-B970-0201109C97AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2938E1-395D-4E09-B970-0201109C97AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2938E1-395D-4E09-B970-0201109C97AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2B3AB1E-6AB1-4EC2-B22B-61D66B1CEB0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2B3AB1E-6AB1-4EC2-B22B-61D66B1CEB0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2B3AB1E-6AB1-4EC2-B22B-61D66B1CEB0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2B3AB1E-6AB1-4EC2-B22B-61D66B1CEB0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECA019E-AD20-4D43-BD30-F1544A79FD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECA019E-AD20-4D43-BD30-F1544A79FD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECA019E-AD20-4D43-BD30-F1544A79FD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECA019E-AD20-4D43-BD30-F1544A79FD6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
